@@ -1,12 +1,64 @@
-body{
-   
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-ul, il{
+body{
+   color: F3F3F3;
+}
+
+ul, ol, li {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 a{
     text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 24px, 0;
+    margin-right: 228px;
+
+}
+
+.header-nav {
+    display:flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 201px;
+    gap: 52px;
+}
+
+.menu-item {
+    padding: 31px, 0;
+    
 
 }
